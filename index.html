@@ -9,20 +9,22 @@
 <body>
 <h1>Calculate Your Cost!</h1>
 <div class='form-container'>
-	<form>
+	<form id='initial-form'>
 	Number of Rooms:<br>
 		<input type='text' name='totalRooms' id='roomNum'/>
 	<p id='trimOptions'>Please select the service you're interested in: <br>
 		<input type='checkbox' name='trimType' value='crown'/>Crown Molding
 		<input type='checkbox' name='trimType' value='baseboard'/>Base Board
 		</p>
+		<button id='submit-btn'>Submit!</button>
 	</form>
 </div>
 <div class='input-container'>
-	<form>
+	
 		<ul id='roomList'>
+		  <ul id='wallList'></ul>
 		</ul>
-	</form>
+	
 </div>
 
 
