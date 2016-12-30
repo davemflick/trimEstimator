@@ -7,6 +7,24 @@
 	<link rel="stylesheet" href="styles/trim.css">
 </head>
 <body>
+<h1>Calculate Your Cost!</h1>
+<div class='form-container'>
+	<form>
+	Number of Rooms:<br>
+		<input type='text' name='totalRooms' id='roomNum'/>
+	<p id='trimOptions'>Please select the service you're interested in: <br>
+		<input type='checkbox' name='trimType' value='crown'/>Crown Molding
+		<input type='checkbox' name='trimType' value='baseboard'/>Base Board
+		</p>
+	</form>
+</div>
+<div class='input-container'>
+	<form>
+		<ul id='roomList'>
+		</ul>
+	</form>
+</div>
+
 
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <script src='scripts/trim.js'></script>
